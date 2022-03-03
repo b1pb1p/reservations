@@ -65,7 +65,7 @@ gem "bootsnap", "~> 1.4"
 
 # ActiveStorage
 gem "mini_magick", "~> 4.10.1"
-gem "image_processing", "~> 1.11"
+gem "image_processing", "~> 1.12", ">= 1.12.2"
 gem "active_storage_validations", "~> 0.8.4"
 gem 'aws-sdk-s3', '~> 1'
 
