@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.6.5' # Version in .ruby-version must match
 
 # standard gems
-gem 'rails', '~> 6.0.3.1'
+gem 'rails', '~> 6.0.4.7'
 gem 'mysql2', '~> 0.5.2'
 gem 'rake', '~> 12.3.3'
 gem 'jbuilder', '~> 2.9.1'
@@ -66,7 +66,7 @@ gem "bootsnap", "~> 1.4"
 # ActiveStorage
 gem "mini_magick", "~> 4.10.1"
 gem "image_processing", "~> 1.11"
-gem "active_storage_validations", "~> 0.8.4"
+gem "active_storage_validations", "~> 0.8.6"
 gem 'aws-sdk-s3', '~> 1'
 
 group :development, :test do
