@@ -3,16 +3,16 @@ source 'https://rubygems.org'
 ruby '2.6.5' # Version in .ruby-version must match
 
 # standard gems
-gem 'rails', '~> 6.0.3.1'
+gem 'rails', '~> 6.0.3.2'
 gem 'mysql2', '~> 0.5.2'
 gem 'rake', '~> 12.3.3'
 gem 'jbuilder', '~> 2.9.1'
 
 # gems required for the rails 5 update
-gem 'responders', '~> 3.0.0'
+gem 'responders', '~> 3.0.1'
 gem 'record_tag_helper', '~> 1.0.0', :git => 'https://github.com/rails/record_tag_helper.git', :ref => '128cc1a577f97069b6f7826e06c07b65650529f2'
-gem 'rails-controller-testing', '~> 1.0.3'
-gem 'activemodel-serializers-xml', '~> 1.0.1'
+gem 'rails-controller-testing', '~> 1.0.4'
+gem 'activemodel-serializers-xml', '~> 1.0.2'
 
 # simulate environment variables
 gem 'dotenv-rails', '~> 2.7.5', :require => 'dotenv/rails-now'
@@ -40,7 +40,7 @@ gem 'rubyzip', '~> 1.3.0'
 gem 'nilify_blanks', '~> 1.2.1'
 
 # ui
-gem 'jquery-rails', '~> 4.3.1'
+gem 'jquery-rails', '~> 4.3.5'
 gem 'jquery-ui-rails', '~> 5.0.5'
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'fullcalendar-rails', '~> 3.0.0.0'
@@ -50,7 +50,7 @@ gem 'rails4-autocomplete', '~> 1.1.1'
 gem 'select2-rails', '~> 4.0.3'
 gem 'kaminari', '~> 1.2.1'
 gem 'draper', '~> 3.1.0'
-gem 'inline_svg', '~> 1.2.1'
+gem 'inline_svg', '~> 1.2.2'
 
 # forms / formatting
 gem 'simple_form', '~> 5.0.1'
@@ -66,7 +66,7 @@ gem "bootsnap", "~> 1.4"
 # ActiveStorage
 gem "mini_magick", "~> 4.10.1"
 gem "image_processing", "~> 1.11"
-gem "active_storage_validations", "~> 0.8.4"
+gem "active_storage_validations", "~> 0.8.6"
 gem 'aws-sdk-s3', '~> 1'
 
 group :development, :test do
@@ -77,9 +77,9 @@ group :development, :test do
   gem 'pry-stack_explorer', '~> 0.4.9.2'
   gem 'pry-remote', '~> 0.1.8'
   gem 'letter_opener', '~> 1.4.1'
-  gem 'letter_opener_web', '~> 1.3.0'
+  gem 'letter_opener_web', '~> 1.3.1'
   gem 'factory_girl_rails', '~> 4.7.0'
-  gem 'rspec-rails', '~> 4.0.0.beta2'
+  gem 'rspec-rails', '~> 4.0.0.0'
   gem 'shoulda-matchers', '~> 3.1.3'
   gem 'capybara', '~> 3.9.0'
   gem 'capybara-selenium', '~> 0.0.6'
@@ -108,7 +108,7 @@ group :development, :test, :heroku do
 end
 
 # assets
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 5.0.8'
 gem 'uglifier', '~> 3.2.0'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'font-awesome-rails', '~> 4.7.0.5'
