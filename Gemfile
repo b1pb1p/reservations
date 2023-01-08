@@ -50,7 +50,7 @@ gem 'rails4-autocomplete', '~> 1.1.1'
 gem 'select2-rails', '~> 4.0.3'
 gem 'kaminari', '~> 1.2.1'
 gem 'draper', '~> 3.1.0'
-gem 'inline_svg', '~> 1.2.1'
+gem 'inline_svg', '~> 1.7.2'
 
 # forms / formatting
 gem 'simple_form', '~> 5.0.1'
