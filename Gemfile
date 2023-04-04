@@ -3,19 +3,19 @@ source 'https://rubygems.org'
 ruby '2.6.5' # Version in .ruby-version must match
 
 # standard gems
-gem 'rails', '~> 6.0.3.1'
+gem 'rails', '~> 6.1.7.3'
 gem 'mysql2', '~> 0.5.2'
 gem 'rake', '~> 12.3.3'
 gem 'jbuilder', '~> 2.9.1'
 
 # gems required for the rails 5 update
-gem 'responders', '~> 3.0.0'
+gem 'responders', '~> 3.0.1'
 gem 'record_tag_helper', '~> 1.0.0', :git => 'https://github.com/rails/record_tag_helper.git', :ref => '128cc1a577f97069b6f7826e06c07b65650529f2'
-gem 'rails-controller-testing', '~> 1.0.3'
-gem 'activemodel-serializers-xml', '~> 1.0.1'
+gem 'rails-controller-testing', '~> 1.0.4'
+gem 'activemodel-serializers-xml', '~> 1.0.2'
 
 # simulate environment variables
-gem 'dotenv-rails', '~> 2.7.5', :require => 'dotenv/rails-now'
+gem 'dotenv-rails', '~> 2.7.6', :require => 'dotenv/rails-now'
 
 # authentication / authorization
 gem 'devise', '~> 4.7.2'
@@ -26,7 +26,7 @@ gem 'cancancan', '~> 2.0.0'
 gem 'whenever', '~> 0.9.7'
 
 # administrative panel
-gem 'rails_admin', '~> 2.0.0'
+gem 'rails_admin', '~> 2.0.2'
 
 # ldap integration
 gem 'net-ldap', '~> 0.16.0'
@@ -40,8 +40,8 @@ gem 'rubyzip', '~> 1.3.0'
 gem 'nilify_blanks', '~> 1.2.1'
 
 # ui
-gem 'jquery-rails', '~> 4.3.1'
-gem 'jquery-ui-rails', '~> 5.0.5'
+gem 'jquery-rails', '~> 4.4.0'
+gem 'jquery-ui-rails', '~> 6.0.0'
 gem 'jquery-datatables-rails', '~> 3.4.0'
 gem 'fullcalendar-rails', '~> 3.0.0.0'
 gem 'momentjs-rails', '~> 2.17.1'
@@ -50,12 +50,12 @@ gem 'rails4-autocomplete', '~> 1.1.1'
 gem 'select2-rails', '~> 4.0.3'
 gem 'kaminari', '~> 1.2.1'
 gem 'draper', '~> 3.1.0'
-gem 'inline_svg', '~> 1.2.1'
+gem 'inline_svg', '~> 1.7.2'
 
 # forms / formatting
 gem 'simple_form', '~> 5.0.1'
 gem 'cocoon', '~> 1.2.10'
-gem 'redcarpet', '~> 3.4.0'
+gem 'redcarpet', '~> 3.5.1'
 
 # iCalendar export
 gem 'icalendar', '~> 2.4.1'
@@ -65,9 +65,9 @@ gem "bootsnap", "~> 1.4"
 
 # ActiveStorage
 gem "mini_magick", "~> 4.10.1"
-gem "image_processing", "~> 1.11"
-gem "active_storage_validations", "~> 0.8.4"
-gem 'aws-sdk-s3', '~> 1'
+gem "image_processing", "~> 1.12", ">= 1.12.2"
+gem "active_storage_validations", "~> 0.8.6"
+gem 'aws-sdk-s3', '~> 1', '>= 1.60.1'
 
 group :development, :test do
   gem "bundler-audit", "~> 0.6.1"
@@ -77,14 +77,14 @@ group :development, :test do
   gem 'pry-stack_explorer', '~> 0.4.9.2'
   gem 'pry-remote', '~> 0.1.8'
   gem 'letter_opener', '~> 1.4.1'
-  gem 'letter_opener_web', '~> 1.3.0'
+  gem 'letter_opener_web', '~> 1.3.1'
   gem 'factory_girl_rails', '~> 4.7.0'
-  gem 'rspec-rails', '~> 4.0.0.beta2'
+  gem 'rspec-rails', '~> 4.0.0.0'
   gem 'shoulda-matchers', '~> 3.1.3'
   gem 'capybara', '~> 3.9.0'
   gem 'capybara-selenium', '~> 0.0.6'
   gem 'selenium-webdriver', '~> 3.14.1'
-  gem "puma", "~> 4.1"
+  gem "puma", "~> 4.3", ">= 4.3.12"
   gem 'spring', '~> 2.0.2'
   gem 'spring-commands-rspec', '~> 1.0.4'
   gem 'fuubar', '~> 2.2.0'
@@ -108,13 +108,13 @@ group :development, :test, :heroku do
 end
 
 # assets
-gem 'sass-rails', '~> 5.0.6'
+gem 'sass-rails', '~> 6.0.0'
 gem 'uglifier', '~> 3.2.0'
 gem 'bootstrap-sass', '~> 3.4.1'
-gem 'font-awesome-rails', '~> 4.7.0.5'
+gem 'font-awesome-rails', '~> 4.7.0.6'
 
 group :development do
-  gem 'thin', '~> 1.7.0'
+  gem 'thin', '~> 1.7.2'
   gem 'rack-mini-profiler', '~> 1.1.0'
   gem 'bullet', '~> 6.0.2'
 end
@@ -127,7 +127,7 @@ end
 group :heroku do
   gem 'unicorn', '~> 5.1.0'
   gem 'rack-timeout', '~> 0.4.2'
-  gem 'aws-sdk', '~> 3'
+  gem 'aws-sdk', '~> 3', '>= 3.0.1'
   gem 'rails_12factor', '~> 0.0.3'
 end
 
