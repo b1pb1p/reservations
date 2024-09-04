@@ -67,7 +67,7 @@ gem "bootsnap", "~> 1.4"
 gem "mini_magick", "~> 4.10.1"
 gem "image_processing", "~> 1.11"
 gem "active_storage_validations", "~> 0.8.4"
-gem 'aws-sdk-s3', '~> 1'
+gem 'aws-sdk-s3', '~> 1', '>= 1.60.2'
 
 group :development, :test do
   gem "bundler-audit", "~> 0.6.1"
@@ -127,7 +127,7 @@ end
 group :heroku do
   gem 'unicorn', '~> 5.1.0'
   gem 'rack-timeout', '~> 0.4.2'
-  gem 'aws-sdk', '~> 3'
+  gem 'aws-sdk', '~> 3', '>= 3.0.2'
   gem 'rails_12factor', '~> 0.0.3'
 end
 
