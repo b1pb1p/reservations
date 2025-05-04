@@ -79,7 +79,7 @@ group :development, :test do
   gem 'letter_opener', '~> 1.4.1'
   gem 'letter_opener_web', '~> 1.3.0'
   gem 'factory_girl_rails', '~> 4.7.0'
-  gem 'rspec-rails', '~> 4.0.0.beta2'
+  gem 'rspec-rails', '~> 8.0.0.0'
   gem 'shoulda-matchers', '~> 3.1.3'
   gem 'capybara', '~> 3.9.0'
   gem 'capybara-selenium', '~> 0.0.6'
