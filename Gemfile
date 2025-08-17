@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.6.5' # Version in .ruby-version must match
 
 # standard gems
-gem 'rails', '~> 6.0.3.1'
+gem 'rails', '~> 7.1.5.2'
 gem 'mysql2', '~> 0.5.2'
 gem 'rake', '~> 12.3.3'
 gem 'jbuilder', '~> 2.9.1'
@@ -26,7 +26,7 @@ gem 'cancancan', '~> 2.0.0'
 gem 'whenever', '~> 0.9.7'
 
 # administrative panel
-gem 'rails_admin', '~> 2.0.0'
+gem 'rails_admin', '~> 3.0.0'
 
 # ldap integration
 gem 'net-ldap', '~> 0.16.0'
@@ -37,7 +37,7 @@ gem 'net-ldap', '~> 0.16.0'
 gem 'rubyzip', '~> 1.3.0'
 
 # soft deletion
-gem 'nilify_blanks', '~> 1.2.1'
+gem 'nilify_blanks', '~> 1.3.0'
 
 # ui
 gem 'jquery-rails', '~> 4.3.1'
@@ -48,7 +48,7 @@ gem 'momentjs-rails', '~> 2.17.1'
 gem 'rails4-autocomplete', '~> 1.1.1'
 # possibly replace above with rails-jquery-autocomplete v 1.0.3
 gem 'select2-rails', '~> 4.0.3'
-gem 'kaminari', '~> 1.2.1'
+gem 'kaminari', '~> 1.2.2'
 gem 'draper', '~> 3.1.0'
 gem 'inline_svg', '~> 1.2.1'
 
@@ -66,7 +66,7 @@ gem "bootsnap", "~> 1.4"
 # ActiveStorage
 gem "mini_magick", "~> 4.10.1"
 gem "image_processing", "~> 1.11"
-gem "active_storage_validations", "~> 0.8.4"
+gem "active_storage_validations", "~> 0.8.7"
 gem 'aws-sdk-s3', '~> 1'
 
 group :development, :test do
